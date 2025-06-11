@@ -28,14 +28,14 @@ EDA was performed to extract meaningful patterns and guide feature engineering u
 
 Bar plots were created to compare the number of characters, words, and sentences in spam and ham messages. Spam messages tend to be longer, more structured, and typically contain persuasive language.
 
-![Feature Distribution](images/feature_distribution.png)
+![](https://live.staticflickr.com/65535/54581552007_b771f7a050_b.jpg)
 
 ### Word Clouds for Spam and Ham Messages
 
 Word clouds visually represented the most frequent terms in each class.
 
-![Spam Word Cloud](images/spam_wordcloud.png)
-![Ham Word Cloud](images/ham_wordcloud.png)
+![](https://live.staticflickr.com/65535/54582637728_0487e166b2.jpg)
+![](https://live.staticflickr.com/65535/54581552022_0b2079b127.jpg)
 
 - **Spam messages** prominently feature promotional and urgent terms like `free`, `win`, `claim`, `urgent`, `now`, and `click`.
 - **Ham messages** are conversational, with frequent use of informal, contextual terms like `ok`, `go`, `see`, `later`, and `home`.
@@ -44,8 +44,8 @@ Word clouds visually represented the most frequent terms in each class.
 
 Bar plots of the top 30 most used words in each category were generated to better understand message structure and content. These insights played a key role in vocabulary selection and token filtering.
 
-![Top Words in Spam](images/top_spam_words.png)
-![Top Words in Ham](images/top_ham_words.png)
+![](https://live.staticflickr.com/65535/54581552032_6783406985_b.jpg)
+![](https://live.staticflickr.com/65535/54582739065_a04c268c56_b.jpg)
 
 ---
 
@@ -73,13 +73,13 @@ Three Naive Bayes variants were evaluated:
 
 Multinomial NB emerged as the most effective due to its compatibility with count-based text features.
 
-![Naive Bayes Confusion Matrix](images/nb_confusion_matrix.png)
+![](https://live.staticflickr.com/65535/54582637748_f7af51d911_b.jpg)
 
 ### Baseline Models
 
 Several traditional models were trained on TF-IDF features, including linear models, tree-based classifiers, and boosting techniques. Their performance was assessed and compared using bar plots.
 
-![Model Performance Comparison](images/baseline_performance_barplot.png)
+![](https://live.staticflickr.com/65535/54582739120_9ef821dcf0_b.jpg)
 
 These experiments provided a performance benchmark and highlighted the trade-offs between simplicity, speed, and classification power across models.
 
