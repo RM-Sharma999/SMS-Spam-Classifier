@@ -129,9 +129,9 @@ The final model was deployed using **Streamlit** to create an intuitive web-base
 
 ## Key Takeaways
 
-- Multinomial Naive Bayes (MNB) was found to be a strong and reliable base model for text classification  
-- Visual EDA clearly distinguished spam from ham based on structure and vocabulary  
-- Ensemble models—particularly the soft voting classifier—delivered the best results, achieving **100% precision** and around **98% accuracy**  
+- Multinomial Naive Bayes (MNB) was found to be a strong and reliable base model for text classification.
+- Visual EDA clearly distinguished spam from ham based on structure and vocabulary.
+- Ensemble models—particularly the soft voting classifier—delivered the best results, achieving **100% precision** and around **98% accuracy**.
 - Using Streamlit and Render simplified deployment and made the model usable in real-world applications.
 
 ---
