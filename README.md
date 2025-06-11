@@ -123,7 +123,7 @@ To compare the effectiveness of the ensemble strategies, a side-by-side confusio
 
 The final model was deployed using **Streamlit** to create an intuitive web-based interface, and hosted on **Render** for public accessibility.
 
-> [Live App on Render](#) *(Insert your deployment link here)*
+> [Live App on Render](#) *(https://sms-spam-classifier-igvf.onrender.com)*
 
 ---
 
