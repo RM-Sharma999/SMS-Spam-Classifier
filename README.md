@@ -16,7 +16,7 @@ The dataset contains over 5,000 labeled text messages, categorized into **ham** 
 
 This imbalance can lead to biased models that favor the majority class. Hence, we emphasize evaluation metrics like **precision** and utilize confusion matrices to properly gauge spam detection capability.
 
-![](https://flic.kr/p/2rah6A3)
+![](https://live.staticflickr.com/65535/54582600794_0c792c6692_z.jpg)
 
 ---
 
