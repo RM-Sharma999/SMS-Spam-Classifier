@@ -77,11 +77,9 @@ Multinomial NB emerged as the most effective due to its compatibility with count
 
 ### Baseline Models
 
-Several traditional models were trained on TF-IDF features, including linear models, tree-based classifiers, and boosting techniques. Their performance was assessed and compared using bar plots.
+Multiple traditional models—including linear classifiers, tree-based algorithms, and boosting methods—were trained using TF-IDF features. Their performance was evaluated and visualized using bar plots, offering a clear benchmark.
 
 ![](https://live.staticflickr.com/65535/54582739120_9ef821dcf0_b.jpg)
-
-These experiments provided a performance benchmark and highlighted the trade-offs between simplicity, speed, and classification power across models.
 
 ---
 
