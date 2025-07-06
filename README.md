@@ -56,7 +56,7 @@ Steps performed:
 - Lowercasing  
 - Removing punctuation and stopwords  
 - Tokenization  
-- Lemmatization (with **NLTK**)  
+- Stemming (with **NLTK**)  
 - TF-IDF vectorization  
 
 ---
