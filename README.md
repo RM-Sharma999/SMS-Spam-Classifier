@@ -111,11 +111,11 @@ To compare the effectiveness of the ensemble strategies, a side-by-side confusio
 ## Technologies Used
 
 - **Programming Language:** Python  
-- **Natural Language Processing:** `nltk`  
-- **Visualization:** `matplotlib`, `seaborn`, `wordcloud`  
-- **Machine Learning:** `scikit-learn`, `xgboost`  
+- **NLP Tools:** `NLTK`  
+- **Visualization:** `Matplotlib`, `Seaborn`, `Wordcloud`  
+- **Machine Learning:** `Scikit-learn`, `Xgboost`  
 - **Web Interface:** `Streamlit`  
-- **Deployment Platform:** `Render`  
+- **Deployment Platform:** `Render`
 
 ---
 
