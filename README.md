@@ -1,20 +1,20 @@
 # SMS Spam Classification Using Machine Learning
 
-This project focuses on classifying text messages as either **spam** or **ham (non-spam)** using classical machine learning models and natural language processing techniques. The goal is to develop a practical and accurate spam filter suitable for real-world deployment.
+This project focuses on classifying text messages as either **spam** or **ham (non-spam)** using **classical machine learning models** and **natural language processing techniques**. The goal is to develop a practical and accurate spam filter suitable for **real-world deployment**.
 
 ---
 
 ## Objective
 
-To create a reliable and interpretable text classification model that detects spam messages with a focus on high precision, leveraging traditional machine learning algorithms and NLP preprocessing techniques.
+To create a reliable and interpretable **text classification model** that detects **spam** messages with a focus on **high precision**, leveraging **traditional machine learning algorithms** and **NLP preprocessing techniques**.
 
 ---
 
 ## Dataset Overview
 
-The dataset contains over 5,000 labeled text messages, categorized into **ham** and **spam**. However, the classes are notably imbalanced—approximately **87%** of the messages are ham, and only **13%** are spam.
+The dataset contains over **5,000 labeled text messages**, categorized into **ham** and **spam**. However, the classes are notably imbalanced—approximately **87%** of the messages are ham, and only **13%** are spam.
 
-This imbalance can lead to biased models that favor the majority class. Hence, we emphasize evaluation metrics like **precision** and utilize confusion matrices to properly gauge spam detection capability.
+This imbalance can lead to biased models that favor the majority class. Hence, we emphasize evaluation metrics like **precision** and utilize **confusion matrices** to properly gauge spam detection capability.
 
 ![](https://live.staticflickr.com/65535/54582600794_0c792c6692_z.jpg)
 
