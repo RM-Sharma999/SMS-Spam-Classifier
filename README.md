@@ -22,11 +22,11 @@ This imbalance can lead to biased models that favor the majority class. Hence, w
 
 ## Exploratory Data Analysis (EDA)
 
-EDA was performed to extract meaningful patterns and guide feature engineering using a combination of descriptive statistics and informative visualizations.
+**Exploratory Data Analysis (EDA)** was conducted to uncover **meaningful patterns**, understand data behavior, and guide **feature engineering** through a combination of **descriptive statistics** and **insightful visualizations**.
 
 ### Distribution of Characters, Words, and Sentences by Class
 
-Bar plots were created to compare the number of characters, words, and sentences in spam and ham messages. Spam messages tend to be longer, more structured, and typically contain persuasive language.
+Bar plots were created to compare the **number of characters, words, and sentences** in **spam** and **ham** messages. Results show that **spam messages tend to be longer and more structured**, often containing persuasive language.
 
 ![](https://live.staticflickr.com/65535/54581552007_b771f7a050_b.jpg)
 
@@ -42,7 +42,7 @@ Word clouds visually represented the most frequent terms in each class.
 
 ### Top 30 Most Common Words in Spam and Ham
 
-Bar plots of the top 30 most used words in each category were generated to better understand message structure and content. These insights played a key role in vocabulary selection and token filtering.
+Bar plots of the top 30 most used words in each category were generated to better understand **message structure and content**. These insights played a key role in **vocabulary selection** and **token filtering**.
 
 ![](https://live.staticflickr.com/65535/54581552032_6783406985_b.jpg)
 ![](https://live.staticflickr.com/65535/54582739065_a04c268c56_b.jpg)
@@ -51,7 +51,7 @@ Bar plots of the top 30 most used words in each category were generated to bette
 
 ## Text Preprocessing
 
-Steps performed:
+**Steps performed:**
 
 - Lowercasing  
 - Removing punctuation and stopwords  
@@ -65,19 +65,19 @@ Steps performed:
 
 ### Naive Bayes Models
 
-Three Naive Bayes variants were evaluated:
+Three **Naive Bayes** variants were evaluated:
 
 - Multinomial NB  
 - Bernoulli NB  
 - Gaussian NB  
 
-Multinomial NB emerged as the most effective due to its compatibility with count-based text features.
+**Multinomial NB** emerged as the most effective due to its compatibility with **count-based text features**.
 
 ![](https://live.staticflickr.com/65535/54582637748_f7af51d911_b.jpg)
 
 ### Baseline Models
 
-Multiple traditional models—including linear classifiers, tree-based algorithms, and boosting methods—were trained using TF-IDF features. Their performance was evaluated and visualized using bar plots, offering a clear benchmark.
+Multiple traditional models—including **linear classifiers, tree-based algorithms, and boosting methods**—were trained using **TF-IDF features**. Their performance was evaluated and visualized using bar plots, providing a clear performance benchmark.
 
 ![](https://live.staticflickr.com/65535/54582739120_9ef821dcf0_b.jpg)
 
@@ -85,7 +85,7 @@ Multiple traditional models—including linear classifiers, tree-based algorithm
 
 ## Ensemble Methods
 
-To achieve more robust results, ensemble techniques were adopted by combining diverse models and leveraging their collective strength.
+To achieve more robust results, **ensemble techniques** were adopted by combining **diverse models** and leveraging their **collective strength**.
 
 ### Soft Voting Classifier
 
@@ -96,7 +96,7 @@ This ensemble combined predictions from:
 - Support Vector Classifier  
 - XGBoost  
 
-The final decision was made by averaging the predicted probabilities. This method improved generalization and precision, achieving ~98% accuracy.
+The final decision was made by **averaging the predicted probabilities**. This method improved generalization and precision, achieving **~98% accuracy**.
 
 ### Stacking Classifier
 
