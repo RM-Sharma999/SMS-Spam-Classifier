@@ -96,13 +96,13 @@ This ensemble combined predictions from:
 - Support Vector Classifier  
 - XGBoost  
 
-The final decision was made by **averaging the predicted probabilities**. This method improved generalization and precision, achieving **~98% accuracy**.
+The final decision was made by **averaging the predicted probabilities**. This method improved generalization and precision.
 
 ### Stacking Classifier
 
-Using the same base models, a **Random Forest** was trained as a meta-learner on their outputs. This strategy enabled the model to learn from complex patterns across predictions and provided an extra performance boost.
+Using the same base models, a **Random Forest** was trained as a **meta-learner** on their outputs. This strategy enabled the model to learn from complex patterns across predictions and provided an extra performance boost.
 
-To compare the effectiveness of the ensemble strategies, a side-by-side confusion matrix subplot was generated. The voting classifier demonstrated flawless spam detection with zero false positives, while the stacking classifier also performed strongly but showed a few misclassifications. This visualization highlights the precision advantage of the voting approach.
+To compare the effectiveness of the ensemble strategies, a **side-by-side confusion matrix** was generated. The **voting classifier** demonstrated **zero false positives**, while the **stacking classifier** also performed strongly but showed **a few misclassifications**. This visualization highlights the precision advantage of the voting approach.
 
 ![](https://live.staticflickr.com/65535/54581552102_fb5301ab54_b.jpg)
 
