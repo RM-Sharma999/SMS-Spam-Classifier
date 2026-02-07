@@ -26,7 +26,7 @@ This imbalance can lead to biased models that favor the majority class. Hence, w
 
 ### Distribution of Characters, Words, and Sentences by Class
 
-> Bar plots were created to compare the **number of characters, words, and sentences** in **spam** and **ham** messages. Results show that **spam messages tend to be longer and more structured**, often containing persuasive language.
+> Used Histograms to compare **number of characters, words, and sentences** in **spam** and **ham** messages, showing that **spam messages tend to be longer and more structured**, often using persuasive language.
 
 ![](https://live.staticflickr.com/65535/54581552007_b771f7a050_b.jpg)
 
