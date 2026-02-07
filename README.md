@@ -38,9 +38,9 @@ This imbalance can lead to biased models that favor the majority class. Hence, w
 ![](https://live.staticflickr.com/65535/54581552022_0b2079b127.jpg)
 
 - **Spam messages** prominently feature promotional and urgent terms like:  
-  `free`, `win`, `claim`, `urgent`, `click`.
+  `free`, `win`, `claim`, `urgent`, `call`, and `click`
 - **Ham messages** are conversational and use informal terms like:  
-  `ok`, `go`, `see`, `later`, `home`.
+  `ok`, `go`, `see`, `later`, `home`, and `sleep`
 
 ### Top 30 Most Common Words in Spam and Ham
 
