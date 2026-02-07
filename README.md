@@ -26,23 +26,25 @@ This imbalance can lead to biased models that favor the majority class. Hence, w
 
 ### Distribution of Characters, Words, and Sentences by Class
 
-Bar plots were created to compare the **number of characters, words, and sentences** in **spam** and **ham** messages. Results show that **spam messages tend to be longer and more structured**, often containing persuasive language.
+> Bar plots were created to compare the **number of characters, words, and sentences** in **spam** and **ham** messages. Results show that **spam messages tend to be longer and more structured**, often containing persuasive language.
 
 ![](https://live.staticflickr.com/65535/54581552007_b771f7a050_b.jpg)
 
 ### Word Clouds for Spam and Ham Messages
 
-Word clouds visually represented the most frequent terms in each class.
+> Word clouds visually represented the most frequent terms in each class.
 
 ![](https://live.staticflickr.com/65535/54582637728_0487e166b2.jpg)
 ![](https://live.staticflickr.com/65535/54581552022_0b2079b127.jpg)
 
-- **Spam messages** prominently feature promotional and urgent terms like `free`, `win`, `claim`, `urgent`, `click`.
-- **Ham messages** are conversational and use informal terms like `ok`, `go`, `see`, `later`, `home`.
+- **Spam messages** prominently feature promotional and urgent terms like:
+  `free`, `win`, `claim`, `urgent`, `click`.
+- **Ham messages** are conversational and use informal terms like:
+  `ok`, `go`, `see`, `later`, `home`.
 
 ### Top 30 Most Common Words in Spam and Ham
 
-Bar plots of the top 30 most used words in each category were generated to better understand **message structure and content**. These insights played a key role in **vocabulary selection** and **token filtering**.
+> Bar plots of the top 30 most used words in each category were generated to better understand **message structure and content**. These insights played a key role in **vocabulary selection** and **token filtering**.
 
 ![](https://live.staticflickr.com/65535/54581552032_6783406985_b.jpg)
 ![](https://live.staticflickr.com/65535/54582739065_a04c268c56_b.jpg)
