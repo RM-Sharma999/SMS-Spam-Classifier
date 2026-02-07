@@ -37,8 +37,8 @@ Word clouds visually represented the most frequent terms in each class.
 ![](https://live.staticflickr.com/65535/54582637728_0487e166b2.jpg)
 ![](https://live.staticflickr.com/65535/54581552022_0b2079b127.jpg)
 
-- **Spam messages** prominently feature promotional and urgent terms like `free`, `win`, `claim`, `urgent`, `now`, and `click`.
-- **Ham messages** are conversational, with frequent use of informal, contextual terms like `ok`, `go`, `see`, `later`, and `home`.
+- **Spam messages** prominently feature promotional and urgent terms like `free`, `win`, `claim`, `urgent`, `now`, `click`.
+- **Ham messages** are conversational, with frequent use of informal, contextual terms like `ok`, `go`, `see`, `later`, `home`.
 
 ### Top 30 Most Common Words in Spam and Ham
 
