@@ -32,7 +32,7 @@ This imbalance can lead to biased models that favor the majority class. Hence, w
 
 ### Word Clouds for Spam and Ham Messages
 
-> Word clouds visually represented the most frequent terms in each class.
+> Word clouds visually represented the **most frequent terms** in each class.
 
 ![](https://live.staticflickr.com/65535/54582637728_0487e166b2.jpg)
 ![](https://live.staticflickr.com/65535/54581552022_0b2079b127.jpg)
